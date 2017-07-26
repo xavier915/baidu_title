@@ -6,7 +6,7 @@ class BaiduSpider(scrapy.Spider):
     name = 'baidu'
     allowed_domains = ['baidu.com']
     start_urls = ['http://baidu.com/']
-    '''测试注释'''
+    '''另一端提交```
     def parse(self, response):
         pass
 
